@@ -1,0 +1,46 @@
+
+
+.footer{
+   background-color:#343A40;
+    margin-top:7em;
+    height: 4em;
+    .Copy{
+        color: rgb(12, 3, 3);
+        display: flex;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        .redes{
+            margin-left: 30px;
+            font-size: 20px;
+            top: 2px;
+          
+        }
+}
+
+.Letras {
+    background-color:rgb(255, 255, 255);
+    font-size: 0.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .sobreMi,.contacto,.home {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #343A40;
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: all 0.8s;
+    .sobreMi,.contacto,.home:hover {
+        background-color:rgb(255, 255, 255);
+    }
+    
+}
+.enlaces{
+    color: white;
+   
+}
+}
+}
