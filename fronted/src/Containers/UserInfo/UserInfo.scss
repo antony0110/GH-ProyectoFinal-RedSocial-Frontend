@@ -1,0 +1,35 @@
+.contenedor{
+ /*   background-color: brown; */
+  .profile{
+    display: flex;
+    justify-content: center;
+  }
+   .perfil{
+       background-image: url(https://p4.wallpaperbetter.com/wallpaper/783/425/168/lexus-lexus-lc-500-blue-car-car-wallpaper-c990f8fd411acd5bc677e8ffb051c60d.jpg);
+       display: flex;
+       justify-content: center;
+       border: solid 1px black;
+       padding: 25px;
+       padding: 20px;
+       .fto1{
+           width: 15%;
+           border: solid 2px black;
+           border-radius: 10px;
+         
+         
+       }
+   }
+   .inf{
+       display: flex;
+       justify-content: center;
+   /*     background-color: cadetblue; */
+       .nombre{
+           padding: 10px;     
+           .names{
+               font-size: 20px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           }
+          }
+   }
+
+}

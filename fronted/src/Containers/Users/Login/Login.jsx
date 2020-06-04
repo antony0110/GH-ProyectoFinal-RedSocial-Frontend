@@ -18,9 +18,17 @@ const Login = () => {
         login(user)
             .then(() => {//como subscribe en angular
                 notification.success({ message: 'Usuario conectado éxito' });
-                history.push('/')//this.router.navigate(['/login]) en angular
+                history.push('/Muro')//this.router.navigate(['/login]) en angular
             })
-            .catch(console.error)
+            .catch(err => {
+                notification.error({message:'Usuario o contraseña incorrectos'})
+                setTimeout(()=>{
+                    history.push('./login');
+                      console.error(err)}
+                )
+                })
+
+                
     };
     return (
         <div className="container">
@@ -36,7 +44,7 @@ const Login = () => {
                         <p class="or">O</p>
                         <form onSubmit={conectar}>
                             <div class="form-group">
-                                <input type="text" name="email" class="form-control"
+                                <input type="text" name="email"class="form-control"
                                     placeholder="Nombre de usuario o correo electronico" />
                             </div>
                             <div class="form-group">

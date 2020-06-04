@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.scss'
-import foto from './fondo.jpg'
 import foto2 from './fondo2.jpg'
 import foto3 from './fondo3.jpg'
 import Footer from '../Footer/Footer'
@@ -11,7 +10,6 @@ return(
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-  
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">

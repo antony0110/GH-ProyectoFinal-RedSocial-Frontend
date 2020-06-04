@@ -3,6 +3,7 @@ import './Header.scss';
 import {WechatOutlined} from '@ant-design/icons';
 import {HomeOutlined} from '@ant-design/icons';
 import {UserOutlined} from '@ant-design/icons';
+import {CommentOutlined} from '@ant-design/icons';
 import {ExportOutlined} from '@ant-design/icons';
 import { NavLink } from 'react-router-dom';
 import { logout} from "../../redux/action";
@@ -19,10 +20,10 @@ const Header = (props) => {
          <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
          <ul class="navbar-nav ml-auto">
            <li class="nav-item">
-           <NavLink to="/"><a class="nav-link"><HomeOutlined className='logo3'/>Home</a></NavLink>
+           <NavLink to="/Muro"><a class="nav-link"><CommentOutlined className='logo3'/>Muro</a></NavLink>
            </li>
            <li class="nav-item">
-           <NavLink to="/"><a class='nav-link'> <UserOutlined className='logo2' /> {props.user.name}</a></NavLink>
+           <NavLink to="/Perfil"><a class='nav-link'> <UserOutlined className='logo2' /> {props.user.name}</a></NavLink>
            </li>
            <li class="nav-item">
            <NavLink to="/login"><a  class='nav-link' onClick={logout} > <ExportOutlined  style={{marginBottom:'8px'}}   className='logo2'/> Logout</a></NavLink>

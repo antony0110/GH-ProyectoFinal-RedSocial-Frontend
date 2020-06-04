@@ -1,7 +1,6 @@
 import React from 'react';
 import './Register.scss';
 import { notification } from 'antd';
-import { API_URL } from '../../../api-config';
 import axios from 'axios';
 import foto1 from './Captura.PNG'
 import { NavLink } from 'react-router-dom';
@@ -16,8 +15,6 @@ const Register = () => {
             name: event.target.name.value,
             email: event.target.email.value,
             password: event.target.password.value,
-
-
         }
         axios.post('http://localhost:8000/api/users/register', user)
             .then(res => {
@@ -52,7 +49,7 @@ const Register = () => {
                                 <input type="password" name="password" class="form-control"
                                     placeholder="Contraseña" />
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block">Iniciar Sesion</button>
+                            <button type="submit" class="btn btn-primary btn-block">Registrate</button>
                             <p class="terms"> Al registrarte, aceptas nuestras, <b>Condiciones</b>. Obtén mas información sobre cómo recopilamos,
                         usamos y compartimos tu información en la <b>Política de datos</b>, asi como
                         el uso que hacemos de las cookies y tecnologias similares en nuestra <b>Política de cookies</b> </p>
