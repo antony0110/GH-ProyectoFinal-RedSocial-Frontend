@@ -40,4 +40,19 @@ export const login = async(user) => {
             console.error(error)
         }
     }
-   
+   export const addProfilePhoto = async(formData) => {
+    try {
+        await axios.post(`http://localhost:8000/api/users/image`, formData, {
+            headers: {
+                authorization: localStorage.getItem('authToken')
+            }
+        });
+        store.dispatch({
+            type: 'USER_PHOTO'
+            
+        })
+    } catch (error) {
+        console.error(error)
+    }
+    getUserInfo()
+}

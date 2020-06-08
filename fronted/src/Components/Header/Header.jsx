@@ -23,10 +23,10 @@ const Header = (props) => {
            <NavLink to="/Muro"><a class="nav-link"><CommentOutlined className='logo3'/>Muro</a></NavLink>
            </li>
            <li class="nav-item">
-           <NavLink to="/Perfil"><a class='nav-link'> <UserOutlined className='logo2' /> {props.user.name}</a></NavLink>
+           <NavLink to="/Perfil"><a class='nav-link'> <UserOutlined className='logo2' /> {props.user.usuario}</a></NavLink>
            </li>
            <li class="nav-item">
-           <NavLink to="/login"><a  class='nav-link' onClick={logout} > <ExportOutlined  style={{marginBottom:'8px'}}   className='logo2'/> Logout</a></NavLink>
+           <NavLink to="/"><a  class='nav-link' onClick={logout} > <ExportOutlined  style={{marginBottom:'8px'}}   className='logo2'/> Logout</a></NavLink>
            </li>
        
          </ul>

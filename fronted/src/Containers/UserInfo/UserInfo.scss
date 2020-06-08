@@ -1,35 +1,132 @@
 .contenedor{
- /*   background-color: brown; */
-  .profile{
+background-color: #FAFAFA;
+}
+.profile{
     display: flex;
     justify-content: center;
-  }
-   .perfil{
-       background-image: url(https://p4.wallpaperbetter.com/wallpaper/783/425/168/lexus-lexus-lc-500-blue-car-car-wallpaper-c990f8fd411acd5bc677e8ffb051c60d.jpg);
-       display: flex;
-       justify-content: center;
-       border: solid 1px black;
-       padding: 25px;
-       padding: 20px;
-       .fto1{
-           width: 15%;
-           border: solid 2px black;
-           border-radius: 10px;
-         
-         
-       }
-   }
-   .inf{
-       display: flex;
-       justify-content: center;
-   /*     background-color: cadetblue; */
-       .nombre{
-           padding: 10px;     
-           .names{
-               font-size: 20px;
-               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-           }
-          }
-   }
+ }
+.perfiles{
+ background-image: url(https://www.savannah-group.com/wp-content/uploads/2017/05/1920-x-500-image-19.jpg);
+ border: 1px solid rgba(0,0,0,.125);
+ padding: 15px;
+ display: flex;
+ justify-content: center;
+ width: 90%;
+ height: 30%;
+ .UserFto{
+     width: 250px;
+     height: 250px;
+     position: relative;
+     top: 100px;
+ }
+    }
+    .fto1{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+  border-radius: 10px;
+          
+      }
+    
 
-}
+    .inf{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+         
+     .nombre{
+        padding: 7px; 
+
+            .names{
+        font-size: 30px;
+        margin: auto;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .estudio{
+         margin-left: 29px;
+         border-radius: 5px;
+      }
+      .titulo{
+         font-size: 18px;
+         margin-left: 20px;
+      }
+   }
+      
+   }
+   .cuadro{
+       display: flex;
+       justify-content: center;
+      
+    }
+    .todainfo{
+      border: 1px solid rgba(0,0,0,.125);
+     width: 90%;
+     background-color: #FFFFFF;
+    .inf3{
+        display: flex;
+        justify-content: center;
+        .Links {
+         display: flex;
+         width: 90%;
+         justify-content: space-around;
+         font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 20px;
+         a{
+            color: rgb(0, 0, 0);
+         }
+            }
+          
+    }
+    .inf2{
+        display: flex;
+        justify-content: center;
+        .Links {
+         display: flex;
+         width: 90%; 
+         margin-top: 10px;
+         justify-content: space-around;
+         font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 45px;
+         color: rgb(0, 0, 0);
+            }        
+    }
+   }
+       .fotosUsers{
+         display: grid;
+         grid-template: repeat(4, 1fr)/repeat(4, 1fr);
+         width: 90%;
+         max-width: 1400px;
+         margin: auto; 
+         position: relative;
+         /*overflow: hidden  ; */
+         /* .fotosUser {
+             display: inline-flex;
+             justify-content: space-between;
+             margin-top: 20px;
+             cursor: pointer;
+             flex-direction: column;
+             padding: 0.5em;
+             justify-content: space-between;
+             align-items: center;
+             color: black;
+             transition: all 0.5s;
+             position: relative;
+             overflow: hidden  ; 
+            } */
+            img {
+              width: 300px;
+              height: 350px;
+              margin: 20px;
+              transition: all 0.5s;
+              border-radius: 6px;
+          }
+     /*      .fotosUser:hover {
+            transform: translateY(0%);
+        }
+        
+        .fotosUser:hover {
+            transform: scale(1.10);
+        } */
+     
+    }
+   
+

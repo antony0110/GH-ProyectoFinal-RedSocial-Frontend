@@ -15,8 +15,15 @@ const reducer = (state = {}, action) => {
                 ...state,
                 user: action.user
             }
-            }
-              
-        };
+            case 'USER_FOTO':
+                return {
+
+                    ...state,
+                }
+                default:
+                    return state
+           
+        }
+    };
 
 export default reducer;

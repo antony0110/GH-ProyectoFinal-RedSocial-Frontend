@@ -12,7 +12,8 @@ const Register = () => {
     const conectar = (event) => {
         event.preventDefault();
         const user = {
-            name: event.target.name.value,
+            NombreCompleto: event.target.NombreCompleto.value,
+            usuario: event.target.usuario.value,
             email: event.target.email.value,
             password: event.target.password.value,
         }
@@ -37,7 +38,11 @@ const Register = () => {
                         <p class="or">O</p>
                         <form onSubmit={conectar}>
                             <div class="form-group">
-                                <input type="text" name='name' class="form-control"
+                                <input type="text" name='NombreCompleto' class="form-control"
+                                    placeholder="Nombre Completo" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name='usuario' class="form-control"
                                     placeholder="Nombre de usuario" />
                             </div>
 
@@ -55,7 +60,7 @@ const Register = () => {
                         el uso que hacemos de las cookies y tecnologias similares en nuestra <b>Política de cookies</b> </p>
                             <div>
                                 <div class="right-column-login  text-center">
-                                    <p>¿No estas registrado?  <NavLink to="/register"><a>Registrate</a></NavLink></p>
+                                    <p>¿Ya estas registrado?  <NavLink to="/login"><a>Inicia sesion</a></NavLink></p>
                                 </div>
 
                             </div>
