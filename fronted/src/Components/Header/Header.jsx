@@ -12,7 +12,7 @@ import { connect } from "react-redux";
 const Header = (props) => {
     return (
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-       <NavLink to="/"><a class="navbar-brand">FACETIME</a><WechatOutlined className='logo'/></NavLink>
+       <NavLink to="/"><a class="navbar-brand">COOLMEET</a><WechatOutlined className='logo'/></NavLink>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

@@ -32,7 +32,7 @@ const Register = () => {
                 </div>
                 <div className="col-xs-12">
                     <div class="right-colum text-center">
-                        <p className="Facetime"> FACETIME</p>
+                        <p className="Facetime"> COOLMEET</p>
                         <p class="info">Registrate para ver fotos y videos de tus amigos </p>
                         <button type="submit" class="btn btn-primary btn-block"><img src={facebook} /> Iniciar sesion con Facebook </button>
                         <p class="or">O</p>

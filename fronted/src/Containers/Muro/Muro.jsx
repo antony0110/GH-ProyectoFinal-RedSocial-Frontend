@@ -105,7 +105,7 @@ const Muro = (props) => {
                     <div className='d-flex align-items-center  '   >
                 <button type='button' onClick={ () =>likes(post.id,post)} className="  botonlike  "><LikeOutlined   className='like' /> </button> <p className='m-0 ml-2 '  > <p className='d-flex align-items-center m-0'>{(post.likes).length}</p></p> 
                     </div>
-                  </div>
+                  </div>  
                 </div>
               </div>
             })}
