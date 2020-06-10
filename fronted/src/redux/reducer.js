@@ -22,8 +22,18 @@ const reducer = (state = {}, action) => {
                 }
                 default:
                     return state
-           
+                    
+           case 'POST':
+               return{
+                   ...state
+               }
+               case 'POSTS':
+            return {
+                ...state,
+                posts: action.posts
+            }
         }
+        
     };
 
 export default reducer;

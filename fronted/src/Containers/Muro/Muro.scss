@@ -1,0 +1,54 @@
+// .container{
+//     .post{
+//       width: 50%;
+//     }
+// }
+.todo{
+  background-image: url(https://i.pinimg.com/originals/10/34/96/103496f849e78a2608f90e58c828c452.jpg);
+  width: 100%;
+  margin-top: -20px;
+  
+}
+.container{
+background-color:#FFFFFF ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-primary {
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: none;
+}
+.botonlike{
+  color: rgb(0, 0, 0);
+  background-color: rgb(25, 0, 255);
+  border-radius: 9px;
+  .like{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+}
+.posts{
+  background-image: url(https://i.pinimg.com/originals/10/34/96/103496f849e78a2608f90e58c828c452.jpg);
+    .cabezado {
+      background-color: #FFFFFF;
+    }
+    .PiePag {
+      background-color: #FFFFFF;
+      margin-top: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+    }
+}
+.title{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 520px;
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  background-color: #FFFFFF;
+}
+.descripcion{
+  border: 1px solid black
+}

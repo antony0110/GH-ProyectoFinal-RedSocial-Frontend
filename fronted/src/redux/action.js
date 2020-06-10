@@ -24,7 +24,7 @@ export const login = async(user) => {
         })
         return res;
     }
-    export const getUserInfo = async() => {
+    export const getUserInfo = async() => { 
         try {
             const res = await axios.get('http://localhost:8000/api/users/info', {
                 headers: {
@@ -55,4 +55,49 @@ export const login = async(user) => {
         console.error(error)
     }
     getUserInfo()
+}
+export const addPost = async(formData) => {
+    try {
+        await axios.post(`http://localhost:8000/api/posts/insert`, formData, {
+            headers: {
+                authorization: localStorage.getItem('authToken')
+            }
+        });
+        store.dispatch({
+            type: 'POST'
+            
+        })
+    } catch (error) {
+        console.error(error)
+    }
+    posts()
+}
+export const posts = async() => {
+    try {
+        const res = await axios.get('http://localhost:8000/api/posts/getAll')
+        store.dispatch({
+            type: 'POSTS',
+            posts: res.data
+        })
+    } catch (error) {
+        console.error(error)
+    }
+    
+}
+export const likes = async(id,post) => {
+    try {
+        const res = await axios.post(`http://localhost:8000/api/posts/like/${id}`,post,{
+            headers: {
+                authorization: localStorage.getItem('authToken')
+            }
+        })
+        store.dispatch({
+            type: 'LIKES',
+            posts: res.data
+        })
+    } catch (error) {
+        console.error(error)
+    }
+    posts()
+    
 }
