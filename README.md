@@ -38,7 +38,7 @@ _Y ahora os voy mostrar algunos aspectos de la pagina_
 ![](./FotosReadme/Register.PNG)
  _Esta es la pagina del registro en el cual ponemos nuestro username, nuestro correo y nuestra contraseña_
 ## Login
-![](./FotosReadme/login.png)
+![](./FotosReadme/login.PNG)
 _Despues de habernos registrado con exito nos redigera al login donde debemos poner nuestro correo y contraseña con la que nos hemos registrado_
 ## MURO
 ![](./FotosReadme/muro.png)
