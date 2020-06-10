@@ -35,19 +35,19 @@ _Y ahora os voy mostrar algunos aspectos de la pagina_
   
 
 ## Register
-![](./FotosReadme/Register.png)
+![](./FotosReadme/Register.PNG)
  _Esta es la pagina del registro en el cual ponemos nuestro username, nuestro correo y nuestra contraseña_
 ## Login
-![](./FotosReadme/login.PNG)
+![](./FotosReadme/login.png)
 _Despues de habernos registrado con exito nos redigera al login donde debemos poner nuestro correo y contraseña con la que nos hemos registrado_
 ## MURO
-![](./FotosReadme/muro.PNG)
+![](./FotosReadme/muro.png)
 _Una vez nos hemos logueado bien no redigera a nuestro muro donde veremos nuestro foto perfil,( al ingresar tiene una foto de perfil por defecto, pero yo ya me puse una foto),tambien podremos hacer post y ver los post de las demas personas registradas_
 ### POST
-![](./FotosReadme/post.PNG)
+![](./FotosReadme/post.png)
 _En esta foto podemos ver el post, sale nuestra foto que hemos subido a la red social, nuestro titulo de nuestro post y una descripcion y los likes_
 ### PERFIL
-![](./FotosReadme/perfil.PNG)
+![](./FotosReadme/perfil.png)
 _Este es nuestro perfil, donde podemos ver nuestra foto de perfil y tambien la podemos cambiar, podemos ver tambien que los post que hemos subido se nos colocara automaticamente abajo en nuestras fotos._
 
 ## Construido con 🛠️
