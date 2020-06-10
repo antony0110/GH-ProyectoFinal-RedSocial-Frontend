@@ -46,11 +46,8 @@ _Una vez nos hemos logueado bien no redigera a nuestro muro donde veremos nuestr
 ### POST
 ![](./FotosReadme/post.png)
 <br>
-<<<<<<< HEAD
 _En esta foto podemos ver el post, sale nuestra foto que hemos subido a la red social, nuestro titulo de nuestro post y una descripcion y le podemos dar like y dislike al post_
-=======
-_En esta foto podemos ver el post, sale nuestra foto que hemos subido a la red social, nuestro titulo de nuestro post y una descripcion y los likes_
->>>>>>> 5fb05785c75805d8cd5a0662a0931af7f8f3c7d1
+
 ### PERFIL
 ![](./FotosReadme/perfil.png)
 _Este es nuestro perfil, donde podemos ver nuestra foto de perfil y tambien la podemos cambiar, podemos ver tambien que los post que hemos subido se nos colocara automaticamente abajo en nuestras fotos._
