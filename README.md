@@ -44,7 +44,7 @@ _Despues de habernos registrado con exito nos redigera al login donde debemos po
 ![](./FotosReadme/muro.png)
 _Una vez nos hemos logueado bien no redigera a nuestro muro donde veremos nuestro foto perfil,( al ingresar tiene una foto de perfil por defecto, pero yo ya me puse una foto),tambien podremos hacer post y ver los post de las demas personas registradas_
 ### POST
-![](./FotosReadme/post.PNG)
+![](./FotosReadme/post.png)
 _En esta foto podemos ver el post, sale nuestra foto que hemos subido a la red social, nuestro titulo de nuestro post y una descripcion y los likes_
 ### PERFIL
 ![](./FotosReadme/perfil.png)
