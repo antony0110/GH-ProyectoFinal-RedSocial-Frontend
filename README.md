@@ -41,7 +41,7 @@ _Y ahora os voy mostrar algunos aspectos de la pagina_
 ![](./FotosReadme/login.png)
 _Despues de habernos registrado con exito nos redigera al login donde debemos poner nuestro correo y contraseña con la que nos hemos registrado_
 ## MURO
-![](./FotosReadme/muro.PNG)
+![](./FotosReadme/muro.png)
 _Una vez nos hemos logueado bien no redigera a nuestro muro donde veremos nuestro foto perfil,( al ingresar tiene una foto de perfil por defecto, pero yo ya me puse una foto),tambien podremos hacer post y ver los post de las demas personas registradas_
 ### POST
 ![](./FotosReadme/post.PNG)
