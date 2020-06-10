@@ -70,6 +70,8 @@ export const addPost = async(formData) => {
     } catch (error) {
         console.error(error)
     }
+   
+   
     posts()
 }
 export const posts = async() => {
@@ -93,6 +95,23 @@ export const likes = async(id,post) => {
         })
         store.dispatch({
             type: 'LIKES',
+            posts: res.data
+        })
+    } catch (error) {
+        console.error(error)
+    }
+    posts()
+    
+}
+export const dislikes = async(id,post) => {
+    try {
+        const res = await axios.post(`http://localhost:8000/api/posts/dislike/${id}`,post,{
+            headers: {
+                authorization: localStorage.getItem('authToken')
+            }
+        })
+        store.dispatch({
+            type: 'DISLIKES',
             posts: res.data
         })
     } catch (error) {

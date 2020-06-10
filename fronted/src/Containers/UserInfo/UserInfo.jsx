@@ -6,8 +6,6 @@ import {TeamOutlined} from '@ant-design/icons';
 import {ScheduleOutlined,CameraOutlined,MessageOutlined} from '@ant-design/icons';
 import {connect} from 'react-redux'
 import { addProfilePhoto, getUserInfo } from '../../redux/action'; 
-import { Upload, message, Button } from 'antd';
-import { UploadOutlined } from '@ant-design/icons';
 
 
 

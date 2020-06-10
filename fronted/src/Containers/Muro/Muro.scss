@@ -24,10 +24,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(25, 0, 255);
   border-radius: 9px;
   .like{
-    color: rgb(0, 0, 0);
     font-size: 30px;
   }
 }
+  .like svg{
+          color: red;
+        }
 .posts{
   background-image: url(https://i.pinimg.com/originals/10/34/96/103496f849e78a2608f90e58c828c452.jpg);
     .cabezado {
@@ -43,7 +45,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .title{
   margin-left: 20px;
   margin-top: 10px;
-  width: 520px;
+  max-width: 35vw;
   border-radius: 4px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
@@ -52,3 +54,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .descripcion{
   border: 1px solid black
 }
+.desaparecer{
+  all:unset
+}
+   
