@@ -47,7 +47,7 @@ _Una vez nos hemos logueado bien no redigera a nuestro muro donde veremos nuestr
 ![](./FotosReadme/post.PNG)
 _En esta foto podemos ver el post, sale nuestra foto que hemos subido a la red social, nuestro titulo de nuestro post y una descripcion y los likes_
 ### PERFIL
-![](./FotosReadme/perfil.PNG)
+![](./FotosReadme/perfil.png)
 _Este es nuestro perfil, donde podemos ver nuestra foto de perfil y tambien la podemos cambiar, podemos ver tambien que los post que hemos subido se nos colocara automaticamente abajo en nuestras fotos._
 
 ## Construido con 🛠️
