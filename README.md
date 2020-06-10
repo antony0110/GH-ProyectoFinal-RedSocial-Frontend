@@ -15,7 +15,7 @@ Necesitaremos una herramienta donde podremos trabajar , en el cual yo he utiliza
 
 _Empezamos con la instalación_
 
-_El primer paso al descargar el repositorio, tenemos que hacer el comando de abajo para poder descargar todos los modulos que hemos utilizado y asi poder hacer funcionar el proyecto, importante entrar en la carpeta de fronted y realizar el comando
+_El primer paso al descargar el repositorio, tenemos que hacer el comando de abajo para poder descargar todos los modulos que hemos utilizado y asi poder hacer funcionar el proyecto, importante entrar en la carpeta de fronted y realizar el comando_
 
   
 
@@ -45,6 +45,7 @@ _Despues de habernos registrado con exito nos redigera al login donde debemos po
 _Una vez nos hemos logueado bien no redigera a nuestro muro donde veremos nuestro foto perfil,( al ingresar tiene una foto de perfil por defecto, pero yo ya me puse una foto),tambien podremos hacer post y ver los post de las demas personas registradas_
 ### POST
 ![](./FotosReadme/post.png)
+<br>
 _En esta foto podemos ver el post, sale nuestra foto que hemos subido a la red social, nuestro titulo de nuestro post y una descripcion y los likes_
 ### PERFIL
 ![](./FotosReadme/perfil.png)
